@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.logoname {
+    text-align: center;
+    font-size: 4rem;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    background-image: linear-gradient(to top, rgb(148, 147, 147), rgb(122, 122, 122));
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-menu li {
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    transition: 0.1s linear;
+}
+.nav-menu a{
+    color: rgb(248, 248, 247);
+    text-decoration: none;
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-menu:hover li {
+    transform: scale(0.8); 
+    opacity: 0.6;
+}
+.nav-menu li:hover {
+    transform: translate(2px, 0);
+    transform: scale(1.2);
+    opacity: 1;
+}
